@@ -1,4 +1,7 @@
 import  Express  from "express";
+import { dirname } from "path";
+import { fileURLToPath } from "url";
+const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const app=Express();
 const port=3000;
@@ -11,15 +14,15 @@ app.use(Express.urlencoded({extended:true}));
 
 /*routes*/
 app.get('/login',(req,res)=>{
-    app.send();
+    app.sendFile(__dirname+"frontend/login.html");
 })
 
 app.get('/owner',(req,res)=>{
-    res.send();
+    res.sendFile();
 })
 
 app.get('/',(req,res)=>{
-    res.send();
+    res.sendFile(__dirname+"/frontend/index.html");
 })
 
 app.post('/submit',(req,res)=>{
