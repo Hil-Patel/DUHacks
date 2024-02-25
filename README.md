@@ -29,8 +29,13 @@ To run DUHacks locally, follow these steps:
    ```bash
    npm install
    ```
-
-3. **Start the Server:**
+   
+3. **Install ejs:**
+   ```bash
+   npm install ejs
+   ```
+   
+4. **Start the Server:**
    ```bash
    node index.js
    ```
@@ -39,7 +44,7 @@ To run DUHacks locally, follow these steps:
    nodemon index.js
    ```
 
-4. **Access the Application:**
+5. **Access the Application:**
    - Open your web browser and visit http://localhost:3000 to access the application.
 
 ## Project Structure
