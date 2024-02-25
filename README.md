@@ -66,4 +66,4 @@ To run DUHacks locally, follow these steps:
 ## Contributions
 
 Contributions are welcome! If you encounter any issues, have feature requests, or want to contribute to the project, feel free to open an issue or submit a pull request.
-```
+
