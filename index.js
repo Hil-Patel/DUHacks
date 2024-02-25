@@ -14,11 +14,11 @@ app.use(Express.urlencoded({extended:true}));
 
 /*routes*/
 app.get('/login',(req,res)=>{
-    app.sendFile(__dirname+"frontend/login.html");
+    app.sendFile(__dirname+"frontend/login.ejs");
 })
 
 app.get('/owner',(req,res)=>{
-    res.sendFile(__dirname+"/frontend/owner.html");
+    res.sendFile(__dirname+"/frontend/owner.ejs");
 })
 
 app.get('/',(req,res)=>{
