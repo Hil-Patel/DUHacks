@@ -18,7 +18,7 @@ app.get('/login',(req,res)=>{
 })
 
 app.get('/owner',(req,res)=>{
-    res.sendFile();
+    res.sendFile(__dirname+"/frontend/owner.html");
 })
 
 app.get('/',(req,res)=>{
@@ -28,7 +28,7 @@ app.get('/',(req,res)=>{
 app.post('/submit',(req,res)=>{
     username=req.body["user"];
     emailname=req.body["email"];
-    res.render();
+    res.render(__dirname+"/frontend/home.ejs");
 })
 
 app.listen(port,()=>{
