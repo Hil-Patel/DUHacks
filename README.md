@@ -1,5 +1,5 @@
 
-```markdown
+
 # DUHacks
 
 Welcome to DUHacks - a web application designed to simplify the process of finding and managing pay and guest houses. Whether you're an owner looking to list accommodations or a student searching for the perfect place, DUHacks has you covered.
